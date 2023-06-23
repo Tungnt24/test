@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body style="padding: 40px;margin: 0 auto;max-width: 600px;background-color: #F8F8F8;font-family: &quot;Montserrat&quot;, Helvetica, sans-serif;">
+    <div class="container" style="background-color: #FFFFFF;">
+        <div class="logo-container" style="height: 80px;display: flex;justify-content: center;align-items: center;box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.1);">
+            $HEADER
+        </div>
+        <div class="content-container" style="padding: 40px;">
+            <div class="title-container" style="text-align: center;padding: 40px 0 60px;">
+                <p class="main-title" style="margin: 0;line-height: 28px;font-size: 20px;font-weight: 700;color: #2C3D94;text-transform: uppercase;margin-top: 30px;">LIFESUP_THƯ MỜI THAM GIA LÀM BÀI TEST</p>
+            </div>
+            <div class="main-content" style="line-height: 22px;font-size: 14px;letter-spacing: .3px;">
+                <p class="mb-m" style="margin: 0; margin-bottom: 20px;">Xin chào <span>${USER_NAME}</span>,</p>
+                <p style="margin: 0;">Bộ phận tuyển dụng xin gửi lời cảm ơn anh/chị đã nộp hồ sơ cho vị trí </b><span>${POSITION}</span> tại LIFESUP.</p>
+
+                <p style="margin: 15;">Trước khi vào vòng phỏng vấn trực tiếp công ty có bài test nhanh đánh giá năng lực ứng viên, anh/chị truy cập vào đường dẫn bên dưới và sử dụng mã code được cấp để bắt đầu làm bài.</p>
+                <p style="margin: 20;"><b>Link: </b><span>${LINK}</span></p>
+                <p style="margin: 0;margin-bottom: 20px;"><b>Code: </b><span>${CODE}</span></p>
+                <p style="margin: 0; margin-bottom: 20px;">Trân trọng,</p>
+                <p style="margin: 0;">LIFESUP Company</p>
+            </div>
+        </div>
+        <div class="footer-container" style="padding: 40px;">
+            $FOOTER
+        </div>
+    </div>
+</body>
+</html>
